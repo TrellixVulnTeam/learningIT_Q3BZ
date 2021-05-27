@@ -1,0 +1,17 @@
+<div class="container" id="container">
+  <div class="form-container sign-up-container">
+    <form action="#">
+      <h1>Create Account</h1>
+      <input type="text" name="FirstName" [(ngModel)]="model.FirstName" required #FirstName="ngModel" class="form-control" id="FirstName" placeholder="First Name">
+      <input type="text" name="LastName" [(ngModel)]="model.LastName" required #LastName="ngModel" class="form-control" id="LastName" placeholder="Last Name">
+      <input type="email" name="Email" [(ngModel)]="model.Email" required #Email="ngModel" class="form-control" id="Email" placeholder="Enter email">
+      <input type="password" name="Password" [(ngModel)]="model.Password" required #Password="ngModel" class="form-control" id="Password" placeholder="Password">
+      <input type="password" name="ConfirmPassword" [(ngModel)]="model.ConfirmPassword" required #ConfirmPassword="ngModel" class="form-control" id="ConfirmPassword" placeholder="Confirm Password">
+      <button type="submit" class="btn btn-primary" (click)="onSubmit()">Sign up<i class="fas fa-sign-in-alt"></i></button>
+    </form>
+
+  </div>
+</div>
+<div style="height: 100vh;">
+
+</div>

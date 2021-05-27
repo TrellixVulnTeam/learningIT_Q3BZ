@@ -1,0 +1,144 @@
+.rectangle {
+  float: left;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-left: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 900px;
+  height: 100%;
+  background-color: white;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 30px;
+}
+
+.circle-icon {
+  background-color: #5493cf;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 25px;
+  margin-left: 35px;
+  border-top: 4px solid #27c0f5;
+  border-bottom: 4px solid #27c0f5;
+  border-right: 4px solid #27c0f5;
+  border-left: 4px solid #27c0f5;
+}
+
+.center {
+  display: block;
+  float: left;
+  margin: 12px;
+}
+
+.title {
+  width: 700px;
+  margin-left: 35px;
+  margin-top: 55px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitle{
+  margin-top: -20px;
+  margin-left: 2px;
+  font-size: 11px;
+}
+
+.experience {
+  transform: skew(0deg);
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+.test1{
+  float: left;
+  border-right: 11px solid #d8d8d8;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+}
+.test2{
+  float: left;
+  width: 80px;
+  height: 22px;
+  background-color: #d8d8d8;
+}
+.test3{
+  float: left;
+  border-left: 11px solid #d8d8d8;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+}
+
+.hexagon{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 750px;
+}
+
+.tags {
+margin-left: 125px;
+}
+.tagrectangle {
+  height: 20px;
+  width: 80px;
+  background-color: #E3E3E3;
+  border-radius: 3px;
+  margin-left: 12px;
+  text-align: center;
+  border: 0.3px solid rgb(224, 221, 221);
+  box-shadow: 1px 1px 1.5px 1px #bebebe;
+}
+.tagrectangle h6 {
+  margin-top: 2px;
+  font-size:11px;
+  color: #4f4f50;
+}
+
+.textCourse {
+  margin-top: 15px;
+  margin-left: 155px;
+  width: 700px;
+}
+
+.start {
+  margin-top: 15px;
+  margin-left: 151px;
+}
+
+.chaptersTitleParagraph {
+  margin-top: 15px;
+  margin-left: 151px;
+  color: #4f4f50;
+}
+.list-group {
+  margin-top: 15px;
+  margin-left: 167px;
+  width: 600px;
+}
+
+.list-group-item {
+  margin-top: 15px;
+  box-shadow: 1px 1px 1.5px 1px #bebebe;
+}
+
+.tag{
+
+  color: rgb(32, 32, 32);
+  margin-left: 138px;
+  // background-color: #e3e3e3;
+}
+
+mark {
+  font-size: 12px;
+  background-color: #e3e3e3;
+}

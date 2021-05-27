@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/43234ee5-78b5-4c10-bc75-bda5865d0383/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/LearningITApp",
+    "appService.deploySubpath": "."
+}

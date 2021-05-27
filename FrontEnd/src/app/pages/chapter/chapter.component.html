@@ -1,0 +1,40 @@
+<div class="pb-5 pt-4 d-flex justify-content-center container">
+  <div class="rectangle">
+    <div class="container">
+      <div class="row">
+        <div class="col-9">
+          <p class="title">{{chapter?.title}}</p>
+        </div>
+        <div class="col-3">
+          <div class="hexagon" >
+            <div class="test1"> </div>
+            <div class="test2">
+              <p class="experience">100 xp</p>
+            </div>
+            <div class="test3"> </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="time">
+          <h6>Estimated time : {{chapter?.time}} minutes</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="content" innerHTML={{chapter?.content}}></div>
+      </div>
+      <!-- <div class="row">
+        <h5 class="next">Previous Chapter: </h5>
+        <h5 style="margin-left: 750px;"  class="next">Next Chapter: </h5>
+      </div> -->
+      <div class="row nav">
+        <h5 class="col-9">Previous Chapter: </h5>
+        <h5 class="col-3">Next Chapter: </h5>
+      </div>
+      <div class="row pb-4">
+        <button (click)="switchIdBack()" routerLinkActive="active" id="nextButton" type="button" class="btn btn-primary">Previous</button>
+        <button style="margin-left: 680px;" (click)="switchId()" routerLinkActive="active" id="nextButton" type="button" class="btn btn-primary">Continue</button>
+      </div>
+    </div>
+  </div>
+</div>

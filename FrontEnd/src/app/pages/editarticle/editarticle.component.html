@@ -1,0 +1,36 @@
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<div class="basic">
+  <div class="col-md-12">
+    <h3>Modify Article</h3>
+		<form #f="ngForm" (ngSubmit)="submit(f)">
+      <div class="form-group">
+        <label for="id">Id</label>
+        <input type="number" value="{{article.id}}" [(ngModel)]="article.id" name="id" class="form-control" id="id" readonly>
+      </div>
+			<div class="form-group">
+				<label for="title">Title</label>
+				<input type="text" value="{{article.title}}" [(ngModel)]="article.title" name="title" class="form-control" id="title" placeholder="title">
+      </div>
+      <div class="form-group">
+				<label for="description">Description</label>
+        <textarea  name="description"  value="{{article.description}}" [(ngModel)]="article.description" name="description" class="form-control" id="description" style="width: 100%; height: 200px;"> </textarea>
+      </div>
+      <div class="form-group">
+        <label for="userId">UserId</label>
+        <input type="number" value="{{article.userId}}" [(ngModel)]="article.userId" name="userId" class="form-control" id="userId" readonly>
+      </div>
+      <div class="form-group">
+				<label for="imageURL">imageURL</label>
+				<input type="text" value="{{article.imageURL}}" [(ngModel)]="article.imageURL" name="imageURL" class="form-control" id="imageURL" placeholder="imageURL">
+      </div>
+
+			<div>
+        <button type="submit" [disabled]="f.invalid" class="btn btn-primary">Modify<i class="fas fa-sign-in-alt"></i></button>
+			</div>
+		</form>
+  </div>
+</div>
+<br>
+<br>

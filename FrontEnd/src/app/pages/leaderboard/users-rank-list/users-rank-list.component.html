@@ -1,0 +1,14 @@
+<div class="leaderboard">
+  <h1>
+    <svg class="ico-cup">
+      <use xlink:href="#cup"></use>
+    </svg>
+    Top 5 Rezultate examene
+  </h1>
+  <ol>
+    <li *ngFor="let userRank of usersRankDetails">
+      <mark>{{userRank.fullName}}</mark>
+      <small>{{userRank.score}}</small>
+    </li>
+  </ol>
+</div>

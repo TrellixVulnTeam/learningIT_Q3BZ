@@ -1,0 +1,77 @@
+<div class="container mt-sm-5 my-1">
+  <form>
+    <!-- (ngSubmit) = "verificaRezultat()" -->
+    <div class="question ml-sm-5 pl-sm-5 pt-2"  *ngFor="let question of questions;let index = index">
+        <div class="py-2 h5"><b>{{question.description}}</b></div>
+        <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options">
+          <label class="options">A. {{question.raspunsA}}
+            <input type="radio" [name]="index" (change)="verificaRaspunsCorect(question.id,'A')" name="radio"> <span class="checkmark"></span></label>
+          <label class="options">B. {{question.raspunsB}}
+            <input type="radio" [name]="index" (change)="verificaRaspunsCorect(question.id,'B')" name="radio"><span class="checkmark"></span> </label>
+          <label class="options" *ngIf="question.raspunsC!=null">C. {{question.raspunsC}}
+            <input type="radio" [name]="index" (change)="verificaRaspunsCorect(question.id,'C')" name="radio"><span class="checkmark"></span> </label>
+          <label class="options" *ngIf="question.raspunsD!=null">D. {{question.raspunsD}}
+            <input type="radio" [name]="index" (change)="verificaRaspunsCorect(question.id,'D')" name="radio"> <span class="checkmark"></span> </label>
+        </div>
+    </div>
+    <div class="d-flex align-items-center pt-3">
+        <div class="ml-auto mr-sm-5">
+          <button type="submit" class="btn btn-success" (click)="verificaRezultat()" data-toggle="modal" data-target="#exampleModal" >Check Result</button>
+        </div>
+    </div>
+  </form>
+</div>
+
+<div class="modal fade" *ngIf="apare" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="margin-top: 10%;" role="document">
+    <div class="modal-content">
+      <div>
+        <!-- class="modal-header" -->
+        <!-- <button type="button" class="close pr-3 pt-2" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <h2 class="modal-title text-center" id="exampleModalLabel">Congratulations!</h2>
+      </div>
+      <p class="scris"> You earned experience points for completing the knowledge check.</p>
+      <img class="poza1" src="https://i.ibb.co/3MsvB9J/succes.png">
+      <div class="hexagon">
+        <div class="test1"> </div>
+        <div class="test2">
+          <p class="experience">200 xp</p>
+        </div>
+        <div class="test3"> </div>
+      </div>
+      <div class="pb-3 pt-3" style="margin-left: 200px;">
+        <!-- class="modal-footer" -->
+        <button type="button" class="btn btn-primary"  data-dismiss="modal" routerLink="/course">Continue</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" *ngIf="!apare" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="margin-top: 10%;" role="document">
+    <div class="modal-content" style="height: auto;">
+      <div>
+        <!-- class="modal-header" -->
+        <!-- <button type="button" class="close pr-3 pt-2" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <h2 class="modal-title text-center" id="exampleModalLabel">FAIL!</h2>
+      </div>
+      <p class="scris" style="z-index: 1;">Sorry. You have to wait an hour to try again.</p>
+      <img class="poza2 pt-3" src="https://i.ibb.co/LkBCgCV/score.png">
+      <div class="pb-3 pt-3" style="margin-left: 200px;">
+        <!-- class="modal-footer" -->
+        <button type="button" class="btn btn-danger" data-dismiss="modal" routerLink="/course">Continue</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+

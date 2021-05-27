@@ -1,0 +1,61 @@
+
+<div class="pb-5 pt-4 d-flex justify-content-center container">
+  <div class="row">
+    <div class="rectangle">
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="icon">
+            <div class="circle-icon">
+              <img width="70" height="70" class="center" src={{course?.imageURL}} alt="icon">
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="row">
+            <div class="title">
+              <p>{{course?.title}}</p>
+              <p class="subtitle"> {{course?.time}} min</p>
+            </div>
+          </div>
+        </div>
+        <div class="hexagon" >
+          <div class="test1"> </div>
+          <div class="test2">
+            <p class="experience">{{course?.experience}} xp</p>
+          </div>
+          <div class="test3"> </div>
+        </div>
+      </div>
+      <div>
+        <p class="tag"><mark>{{course?.category}}</mark> &nbsp; <mark>{{course?.level}}</mark></p>
+      </div>
+      <div class="textContent row">
+        <div class="col-xs-9">
+          <div class="textCourse">
+            <div innerHTML={{course?.description}}></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="start">
+          <button routerLink="/chapter" (click)="saveChaperId(firstChapter.id)" class="list-group-item list-group-item-action" type="button" class="btn btn-primary">Start ></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="chaptersTitleParagraph">
+          <h5>This module includes the next chapters :</h5>
+        </div>
+      </div>
+      <div class="row pb-4">
+        <div class="col-sm-9">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a routerLink="/chapter" (click)="saveChaperId(this.chapter.id)" class="list-group-item list-group-item-action"  *ngFor="let chapter of capitole">
+              <img [hidden]="chapter.flagFinished!=1" class="ok" width="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpy6yf5KdrcU3NpXPlno0_CUnI34BpdWKEjA&usqp=CAU"/>
+              {{chapter.title}}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,357 @@
+[33mcommit e3d5af5568f060ca0519538dfd660cfd5a7a9800[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/DevB-Roberto[m[33m, [m[1;32mDevB-Roberto[m[33m)[m
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Sun Dec 20 14:34:05 2020 +0200
+
+    20.12.2020
+
+[33mcommit 428b3e41055e91dbf18efa48f905c6853850b6b6[m[33m ([m[1;31morigin/DevD-Adriana[m[33m, [m[1;31morigin/DevC-Costin[m[33m)[m
+Merge: fb631e89 a40e9268
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 13:56:08 2020 +0200
+
+    Merge din Dev Bitu in master
+
+[33mcommit fb631e89c7d17ba7fc13cef8c5b90054e76d4752[m
+Merge: db22db0d fef439b7
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 13:52:41 2020 +0200
+
+    Merge din Dev Bitu in master.
+
+[33mcommit fef439b7478fd08a50a620c5aebd1f429fb3d996[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 13:51:30 2020 +0200
+
+    ?
+
+[33mcommit db22db0dd34e3b5885aab19f1d7f936c689dde2c[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 13:51:02 2020 +0200
+
+    da
+
+[33mcommit 86e9c84177d564f8a4bba96f2b07bddc7d33d98a[m
+Merge: fc7f78f3 7c6836fc
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 13:46:18 2020 +0200
+
+    Merge branch 'Bitu' of https://github.com/unibuc-cs/LearningIT into Bitu
+
+[33mcommit fc7f78f334d3a94e9aafcc0bd938eec2f4f8c1b9[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 13:40:16 2020 +0200
+
+    dA
+
+[33mcommit 7c6836fc385323ec6969c8fe288a8902fe4eb80c[m
+Merge: 079ecb3b 65c744ce
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 13:30:32 2020 +0200
+
+    sss
+
+[33mcommit 079ecb3b81dd6276c3b2009bd3d3a4ab6bd3ae20[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 13:29:53 2020 +0200
+
+    Merge din Bitu in master
+
+[33mcommit a367a294365c1ef3e5c6c52600e3f27e06872ec4[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 12:49:46 2020 +0200
+
+    Leaderboard
+
+[33mcommit fe81af83936207c4a7339a1b3426da4f41ba4697[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 13:13:05 2020 +0200
+
+    sql
+
+[33mcommit 7e4445843406f7d1ef36fa21811adfae4772a04c[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 12:59:05 2020 +0200
+
+    sql
+
+[33mcommit 523f0dd57e31e9f9bae68fdda482dee09ce757dc[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 12:49:46 2020 +0200
+
+    Leaderboard
+
+[33mcommit 65c744ce286dc38931c57f8ac9c5fd568eef6967[m
+Merge: ec99adf3 db267bc1
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 13:26:34 2020 +0200
+
+    DA
+
+[33mcommit ec99adf3be310cf6357106a76024e7778a5bd363[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 13:13:05 2020 +0200
+
+    sql
+
+[33mcommit aff2e866ad3823844ee2b689d26756f1025ecd59[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 12:59:05 2020 +0200
+
+    sql
+
+[33mcommit e39b28584e066339bd6929307b61eed7766a1bee[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 12:49:46 2020 +0200
+
+    Leaderboard
+
+[33mcommit db267bc1f25ea5cbc5b03e4c47b4edb35b7b561a[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 12:59:05 2020 +0200
+
+    sql
+
+[33mcommit 25b338880be807935e3feec1eeb8e9ad163c6a5b[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sun Dec 20 12:49:46 2020 +0200
+
+    Leaderboard
+
+[33mcommit a40e926814df3948204023c70d68ecbb3aa17543[m
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Sat Dec 19 17:51:28 2020 +0200
+
+    19.12.2020
+
+[33mcommit f9e1e9550fd2d1d790a15d6677ebc07c4b27bbad[m
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Sat Dec 19 15:59:51 2020 +0200
+
+    19.12.2020
+
+[33mcommit 93092a334100347877eeb656f366c1840b601351[m
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Wed Dec 16 17:20:07 2020 +0200
+
+    Course page merge
+
+[33mcommit 167f9e03acea4fb3f62974557d5cd2e46a942a40[m
+Merge: 4187e10a a7088039
+Author: COSTIN ALEXANDRU FRATILA <costin.fratila@s.unibuc.ro>
+Date:   Wed Dec 16 10:59:06 2020 +0200
+
+    Merge branch 'master' of https://github.com/unibuc-cs/LearningIT
+
+[33mcommit 4187e10a40c22f0d0727a736b8d777e620b039f3[m
+Author: COSTIN ALEXANDRU FRATILA <costin.fratila@s.unibuc.ro>
+Date:   Wed Dec 16 10:57:17 2020 +0200
+
+    capitole toate
+
+[33mcommit 36c1733e8be395d844f923b766317537eae9bcdb[m
+Author: COSTIN ALEXANDRU FRATILA <costin.fratila@s.unibuc.ro>
+Date:   Wed Dec 16 10:54:39 2020 +0200
+
+    Revert "Update Chapters - get chapters by title"
+    
+    This reverts commit a2f52d9137227ee96d4f0c1b18a00965c557e0a1.
+
+[33mcommit a2f52d9137227ee96d4f0c1b18a00965c557e0a1[m
+Author: COSTIN ALEXANDRU FRATILA <costin.fratila@s.unibuc.ro>
+Date:   Wed Dec 16 10:51:44 2020 +0200
+
+    Update Chapters - get chapters by title
+
+[33mcommit a7088039c5563fb43fbf7b0b7d312287716fa0cd[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Tue Dec 15 00:38:36 2020 +0200
+
+    Commit migrare.
+
+[33mcommit 9ed77210e69334e82fb61f4d43ec3431a62d7715[m
+Merge: c030e753 2af4da26
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Tue Dec 15 00:32:31 2020 +0200
+
+    modificari pe controloare
+
+[33mcommit c030e753b3bf82695819c93a99377744dbb6d716[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Tue Dec 15 00:30:55 2020 +0200
+
+    commit
+
+[33mcommit 2af4da26907dfbd871148c14555e4f07c21ca7a3[m
+Merge: d7b5a0d4 1f9f6e8e
+Author: COSTIN ALEXANDRU FRATILA <costin.fratila@s.unibuc.ro>
+Date:   Tue Dec 15 00:25:24 2020 +0200
+
+    get dupa Title
+
+[33mcommit d7b5a0d4c029241d9e2e8d3a13185f9aa6c551ed[m
+Author: COSTIN ALEXANDRU FRATILA <costin.fratila@s.unibuc.ro>
+Date:   Tue Dec 15 00:22:33 2020 +0200
+
+    get dupa title
+
+[33mcommit 8496f3f864d260b8656beac8b344b3ae4d19f934[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Tue Dec 15 00:17:33 2020 +0200
+
+    Adaugare controale noi
+
+[33mcommit 2a65e178b96acea7d11dd63879ceac272abaebe9[m
+Author: COSTIN ALEXANDRU FRATILA <costin.fratila@s.unibuc.ro>
+Date:   Tue Dec 15 00:09:53 2020 +0200
+
+    Update Chapters - Get Chapter by Title
+
+[33mcommit 1f9f6e8e6c11dfcdb19f7d7450e7d7b7562e75a6[m
+Author: adriana16costache <adriana16costache@gmail.com>
+Date:   Mon Dec 14 23:20:07 2020 +0200
+
+    exam1
+
+[33mcommit 3454d12626c108b1691d33f22edf76b9c8027db2[m
+Merge: 1944f822 fcde2e47
+Author: adriana16costache <adriana16costache@gmail.com>
+Date:   Mon Dec 14 23:19:59 2020 +0200
+
+    Merge branch 'master' of https://github.com/unibuc-cs/LearningIT
+
+[33mcommit fcde2e4752115558f38f922069b29ebd89e7cb02[m
+Merge: 63fe180e faa6ebd2
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sat Dec 12 15:01:39 2020 +0200
+
+    refacut constrainturi si identity
+
+[33mcommit 63fe180ee1326ee704edff582e6a4675eb6abfda[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Sat Dec 12 15:00:26 2020 +0200
+
+    reparat
+
+[33mcommit faa6ebd2991b967477abfe00e28529293376fcfb[m
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Sat Dec 12 14:54:10 2020 +0200
+
+    12.12.2020
+
+[33mcommit 1944f8225d3467e8d140818f2c6860db451fecd6[m
+Merge: 6912572f eb62b9ce
+Author: adriana16costache <adriana16costache@gmail.com>
+Date:   Sat Dec 12 03:01:20 2020 +0200
+
+    aa
+
+[33mcommit 6912572ffde8649a7c2c5cfc7690f7bc9fab2c99[m
+Author: adriana16costache <adriana16costache@gmail.com>
+Date:   Sat Dec 12 02:48:50 2020 +0200
+
+    adr
+
+[33mcommit 36ad692c26380496294c50af212c2d9998fbfce3[m
+Author: adriana16costache <adriana16costache@gmail.com>
+Date:   Sat Dec 12 02:45:14 2020 +0200
+
+    a
+
+[33mcommit eb62b9ce3131c8e53fb4d4c40f57aef6b082e9a2[m
+Merge: caad8595 29cfd442
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Thu Dec 10 15:35:37 2020 +0200
+
+    Merge branch 'master' of https://github.com/unibuc-cs/LearningIT
+
+[33mcommit caad859562f60ad2fd3d8e22d750134a08d41bfb[m
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Thu Dec 10 15:35:28 2020 +0200
+
+    10.12.2020
+
+[33mcommit 29cfd4429c958d04a463c78849ea5fd90e264dec[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Wed Dec 9 20:56:31 2020 +0200
+
+    Chapter controller.
+
+[33mcommit dc7de802c6d682058b80a9d524b29f6578540fa5[m
+Merge: 40c54695 75f2cf98
+Author: adriana16costache <adriana16costache@gmail.com>
+Date:   Wed Dec 9 00:12:51 2020 +0200
+
+    a
+
+[33mcommit 75f2cf9865644cff9eccd207656bfbc7aecfd075[m
+Author: Gabriel <Gabriel@DESKTOP-DVAME81>
+Date:   Tue Dec 8 23:34:45 2020 +0200
+
+    Course
+
+[33mcommit d35bb4ef3bf6e1fee45e62bd6600de282abca7c9[m
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Tue Dec 8 20:02:06 2020 +0200
+
+    login+register care merg
+
+[33mcommit 40c54695e6543ccbd36874fa748e73f7c7c7e7c6[m
+Author: adriana16costache <adriana16costache@gmail.com>
+Date:   Mon Dec 7 17:45:37 2020 +0200
+
+    a
+
+[33mcommit e1044c87b63939966d853ce15c4cdf111ef56e89[m
+Merge: 9702f615 cc92bdef
+Author: adriana16costache <adriana16costache@gmail.com>
+Date:   Mon Dec 7 17:26:07 2020 +0200
+
+    Merge branch 'master' of https://github.com/unibuc-cs/LearningIT
+
+[33mcommit 9702f61542b890bb6205b0915b9ca3cb15142e25[m
+Author: adriana16costache <adriana16costache@gmail.com>
+Date:   Mon Dec 7 17:12:47 2020 +0200
+
+    a
+
+[33mcommit cc92bdeff2a522591de4a521224d5053ae9847df[m
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Sun Dec 6 23:43:31 2020 +0200
+
+    login
+
+[33mcommit 92ee7c1cfc8a498ab41e26201746eedd03ca0aac[m
+Author: adriana16costache <adriana16costache@gmail.com>
+Date:   Fri Dec 4 11:34:22 2020 +0200
+
+    navBar 4/12
+
+[33mcommit 82b6259d8649899bb3eaf4c52ac9129a69794735[m
+Author: adriana16costache <adriana16costache@gmail.com>
+Date:   Fri Dec 4 00:30:36 2020 +0200
+
+    navBar
+
+[33mcommit 1cb92489710ea1a8e8b594f3cc0c0ceedef8b006[m
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Wed Dec 2 22:16:01 2020 +0200
+
+    a
+
+[33mcommit 9ceefc6bc76b21f5a56b374e39250a80252bdff4[m
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Tue Dec 1 19:52:43 2020 +0200
+
+    a
+
+[33mcommit b97205f354fb876d53e91a70ea8c3560ee66bec8[m
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Mon Nov 30 22:52:02 2020 +0200
+
+    Commit
+
+[33mcommit a8548a2ec2e9104f34ad293983be2d19a4188fc2[m
+Author: RobertoSimion <roberto.simion@s.unibuc.ro>
+Date:   Mon Nov 30 22:47:01 2020 +0200
+
+    Commit

@@ -1,0 +1,52 @@
+<div class="top">
+  <br>
+  <h1 class="h1-top">Browse all</h1>
+  <p class="p-top">Learn new skills and discover the power of LearningIT with step-by-step guidance. Start your journey today by exploring our modules.</p>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-3 pt-3">
+      <h5>Category</h5>
+      <ul class="filtre-category">
+        <li *ngFor="let item of category">
+          <input type="checkbox" (click)="fcategory(item.t)">
+          <label class="label-text-size">{{item.t}}</label>
+        </li>
+      </ul>
+      <h5>Levels</h5>
+      <ul class="filtre-level">
+        <li *ngFor="let item of levels">
+          <input type="checkbox" (click)="flevel(item.t)">
+          <label class="label-text-size">{{item.t}}</label>
+        </li>
+      </ul>
+    </div>
+    <div class="col-9">
+      <div class="form-group"><br>
+        <input type="text" class="form-control" placeholder="Search..." [(ngModel)]="filterTerm">
+      </div>
+      <div class="list-courses" *ngFor="let item of courses | filter:filterTerm | paginate:{itemsPerPage: 9, currentPage: p }">
+        <div class="icon">
+          <img class="center" width="50" height="50" src={{item.imageURL}} alt="poza">
+        </div>
+        <div class="partea-albastra">
+        </div>
+        <div class="partea-alba">
+          <p class="MODULE">MODULE</p>
+          <p class="p-partea-alba"><a routerLink="/course" (click)="onclick(this.item.title)" (click)="saveId(this.item.id)">{{item.title}}</a></p>
+          <p class="minute">{{item.time}} min</p>
+          <div>
+            <p class="tag"><mark>{{item.category}}</mark> &nbsp; <mark>{{item.level}}</mark></p>
+          </div>
+          <div class="linie-parte-alba"></div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-center" style="width: 100%;">
+      <div class="mx-auto p-4 bd-highlight col-example">
+        <pagination-controls (pageChange)="p = $event" (click)="sus()"></pagination-controls>
+      </div>
+    </div>
+  </div>
+</div>
